@@ -23,15 +23,15 @@ class MainActivity : AppCompatActivity() {
 //        return super.onOptionsItemSelected(item)
         return when (item.itemId) {
             R.id.action_settings -> {
-                Toast.makeText(applicationContext, "click on setting", Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, "🕸🕸🕸🕸🕸", Toast.LENGTH_LONG).show()
                 true
             }
             R.id.action_share ->{
-                Toast.makeText(applicationContext, "click on share", Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, "🤞🤞🤞🤞🤞", Toast.LENGTH_LONG).show()
                 return true
             }
             R.id.action_exit ->{
-                Toast.makeText(applicationContext, "click on exit", Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, "🤢🤢🤢🤢🤢🤢", Toast.LENGTH_LONG).show()
                 return true
             }
             else -> super.onOptionsItemSelected(item)
